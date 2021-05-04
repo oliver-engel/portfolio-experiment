@@ -9,15 +9,51 @@ layout: compress
 
   <body>
 
-    {% include header.html %}
+    <!-- {% include header.html %} -->
 
-    <main>
 
-      {{ content }}
+    <!-- <div class="wrapper">
+      <div class="sidebar">
+        <h4>Oliver Engel</h4>
+        <ul>
+          <li>Work</li>
+          <li>Words</li>
+          <li>Info</li>
+        </ul>
 
-    </main>
 
-    {% include footer.html %}
+      </div>
+      <div class="main">
+        Main content
+      </div>
+    </div> -->
+
+    <nav class="menu">
+       <div class="menu__item"><a class="menu__item-inner">Fascination Street</a></div>
+       <div class="menu__item"><a class="menu__item-inner">The Last Dance</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Rebel Fantasies</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Love Letters to Cipher</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Henry and the Kids</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Downtown Blank</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Georgetown Blues</a></div>
+       <div class="menu__item"><a class="menu__item-inner">When Alice comes</a></div>
+       <div class="menu__item"><a class="menu__item-inner">A Rabbit's Dream</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Schizophrenia House</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Foundation Fabrics</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Whenever Whatever</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Feathers of Babel</a></div>
+       <div class="menu__item"><a class="menu__item-inner">Golden Freckles</a></div>
+   </nav>
+
+   <script type="module" src="assets/js/index.js"></script>
+   <script type="text/javascript">
+   const menu = new InfiniteMenu(document.querySelector('nav.menu'));
+ </script>
+   <!-- <script type="text/javascript">
+     const menu = new InfiniteMenu(document.querySelector('nav.menu'));
+   </script> -->
+
+
 
   </body>
 
